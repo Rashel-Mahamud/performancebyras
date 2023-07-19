@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: aquamarine;
+            text-decoration: solid;
+        }
+        map{
+            background-color: aqua;
+        }
+        div{
+            background-color: azure;
+        }
+        h4{
+            background-color: bisque;
+        }
+       
+    </style>
+</head>
+<body>
+    <div style="height: 150px; width: 300px; border: 2px solid #000;">
+    <marquee behavior="scroll" direction="left">welcome to iiuc</marquee>
+    <marquee behavior="down" direction="left">welcome to iiuc</marquee>
+    <marquee behavior="scroll" direction="up"> department of CCE</marquee>
+    </div>
+    <marquee behavior="top" direction="right"> 
+        <div style="height: 150px; width: 300px; border: 2px solid #000;">empty
+    </marquee>
+    <h4>map tag</h4>
+    hints:
+    <ol>
+        <li>click on the laptop in the image for going to the laptop website. </li>
+        <li> click on the mobile in the image for going to the mobile website.</li>
+        <li>click on the cup of coffe in the image for going to the peets website.</li>
+    </ol>
+    <img src="workplace.jpg" border="20px" alt="" usemap="#image-map">
+    <map name="image-map">
+        <area target="_blank" alt="laptop website" href="https://www.ryanscomputers.com/" coords="41,44,125,39,240,38,278,42,270,336,52,190,277,341,39,339,46,245" shape="poly">
+        <area target="_blank" alt="mobile website" title="" href="https://www.mobiledokan.com/" coords="333,248,291,178" shape="rect">
+        <area target="" alt="" title="" href="https://www.peets.com/" coords="294,290,318,259,365,267,379,289,384,324,343,350,302,323" shape="poly">
+    </map>
+    <h4>details /summary</h4>
+    <details><summary>lorem text</summary>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, dolorum provident.
+             Quidem, eos. Hic, deleniti? Minus quia a ab. Laborum, quidem placeat. Fugiat repellat 
+             excepturi vitae voluptatum dolor delectus exercitationem quas omnis reiciendis illum tenetur 
+             labore quo quasi nobis quidem nulla, maxime eligendi vero consectetur? Recusandae natus aliquam 
+             cupiditate, error consequatur, asperiores illum autem laudantium suscipit quam tenetur architecto, quod explicabo ex quisquam fugiat eum laboriosam? Corporis voluptate cupiditate nulla minus, voluptatibus aperiam! Quidem, amet sint, quae eligendi dolor accusamus dolorum nostrum, dignissimos ab quam autem natus
+             ex ad veniam tenetur minus perferendis corporis sapiente accusantium consequuntur! Earum, molestias
+              placeat.</p></details>
+</body>
+</html>
